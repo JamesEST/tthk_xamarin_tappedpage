@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace tthk_xamarin_tappedpage
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace tthk_xamarin_tappedpage.CarModels
 {
-    public partial class MainPage : TabbedPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class BmwF32 : ContentPage
     {
-        public MainPage()
+        public BmwF32()
         {
             InitializeComponent();
         }
